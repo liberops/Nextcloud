@@ -14,7 +14,7 @@ Elle ressemblera à ça:
 # DOSSIERS DE TRAVAIL
 On utilise donc les commandes ci-dessous:
 * On créé le répertoire racine de notre projet
-`__mkdir racine__`
+__mkdir racine__
 * On se place à l'intérieur de ce répertoire
 cd racine
 * On créé le dossier de notre service nextcloud
