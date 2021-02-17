@@ -40,7 +40,7 @@ On utilise donc les commandes ci-dessous:
 
 # DOCKER-COMPOSE.YML
 Récupérer le fichier docker-compose.yml dans le dépôt et effectuer les modifications pour le personnaliser.  
-` Penser à changer _MOTDEPASSE1_ et "MOTDEPASSE2" `   
+` Penser à changer `_MOTDEPASSE1_` et "MOTDEPASSE2" `   
 version: "2"
 services:
   nextcloud:
