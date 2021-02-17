@@ -6,9 +6,13 @@
   
 ## PREREQUIS
 
-Installer Docker sur votre machine: 
-https://docs.docker.com/engine/install/debian/
-Installer Docker Compose `sudo apt install docker-compose`
+Installer Docker sur votre machine:  
+ 
+https://docs.docker.com/engine/install/debian/  
+
+Installer Docker Compose  
+
+`sudo apt install docker-compose`
   
   
 ## ARBORESCENCE
@@ -24,7 +28,8 @@ l'installation.
         * CONFIG 
     
         * DATA 
-    
+       
+	* DOCKER-COMPOSE.YML   
 
 
   
@@ -51,7 +56,9 @@ On utilise donc les commandes ci-dessous:
   
   
 ## DOCKER-COMPOSE.YML
-Récupérer le fichier **docker-compose.yml** dans le dépôt avec un `git-clone https://github.com/liberops/Nextcloud.git`ou copier/coller le code ci-dessous sans votre fichier **docker-compose.yml** et effectuer les modifications pour le personnaliser.  
+Récupérer le fichier **docker-compose.yml** dans le dépôt avec un  
+`git-clone https://github.com/liberops/Nextcloud.git`  
+ou copier/coller le code ci-dessous sans votre fichier **docker-compose.yml** et effectuer les modifications pour le personnaliser.  
 Penser à changer **MOTDEPASSE1** et **MOTDEPASSE2**  
 
 
@@ -92,9 +99,7 @@ services:
 
     
 On enregistre ce fichier **docker-compose.yml**  
-
-On se replace dans le dossier NEXTCLOUD si ce n'était plus le cas  
-`cd nextcloud`  
+  
 
 On lance le fichier **docker-compose.yml** avec la commande suivante:  
 `sudo docker-compose up -d`  
