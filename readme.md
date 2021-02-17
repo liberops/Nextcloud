@@ -82,7 +82,7 @@ services:
 On enregistre ce fichier **docker-compose.yml**  
 
 On se replace dans le dossier NEXTCLOUD si ce n'était plus le cas 
-'cd nextcloud'  
+`cd nextcloud`  
 
 On lance le fichier **docker-compose.yml** avec la commande suivante:  
 `docker-compose up -d`  
