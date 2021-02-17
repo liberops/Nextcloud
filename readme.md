@@ -39,7 +39,7 @@ On utilise donc les commandes ci-dessous:
 
 
 ## DOCKER-COMPOSE.YML
-Récupérer le fichier docker-compose.yml dans le dépôt et effectuer les modifications pour le personnaliser.  
+Récupérer le fichier docker-compose.yml dans le dépôt ou copier/coller le code ci-dessous sans votre fichier docker-compose.yml et effectuer les modifications pour le personnaliser.  
 Penser à changer **MOTDEPASSE1** et **MOTDEPASSE2**  
 
 
@@ -79,10 +79,11 @@ services:
 
 
     
-On enregistre ce fichier docker-compose.yml On se replace dans le 
-dossier NEXTCLOUD si ce n'était plus le cas cd nextcloud On 
-lance le fichier docker-compose.yml avec la commande suivante:  
-docker-compose up -d  
+On enregistre ce fichier **docker-compose.yml**  
+On se replace dans le dossier NEXTCLOUD si ce n'était plus le cas 
+'cd nextcloud'  
+On lance le fichier **docker-compose.yml** avec la commande suivante:  
+`docker-compose up -d` 
 **Le résultat doit être DONE !!!!!**
 
 
