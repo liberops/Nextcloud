@@ -37,7 +37,7 @@ Copier coller le contenu ci-dessous dans le fichier docker-compose.yml
 que vous venez de crée en adaptant les données "MOTDEPASSE1" et 
 "MOTDEPASSE2" 
 
-`version: "2"
+version: "2"
 services:
   nextcloud:
     image: linuxserver/nextcloud
@@ -67,7 +67,7 @@ services:
       - MYSQL_PASSWORD=MOTDEPASS2
     volumes:
       - /racine/nextcloud/mariadb:/config
-    restart: unless-stopped `
+    restart: unless-stopped 
     
     
 On enregistre ce fichier docker-compose.yml On se replace dans le 
