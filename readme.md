@@ -43,9 +43,9 @@ Copier coller le contenu ci-dessous dans le fichier docker-compose.yml
 que vous venez de crée en adaptant les données "MOTDEPASSE1" et 
 "MOTDEPASSE2" 
 
-`version: "2"`
-`services:`
-  `nextcloud:`
+`version: "2"`  
+`services:`  
+  `nextcloud:`  
     `image: linuxserver/nextcloud
     `container_name: nextcloud
     `environment:
