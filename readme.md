@@ -4,7 +4,7 @@
 
 ## PREREQUIS
 
-Installer Docker sur votre machine (Ex: Debian10)
+Installer Docker sur votre machine: 
 https://docs.docker.com/engine/install/debian/
 
 
