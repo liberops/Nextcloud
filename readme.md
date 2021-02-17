@@ -13,22 +13,22 @@ Elle ressemblera à ça:
 
 # DOSSIERS DE TRAVAIL
 On utilise donc les commandes ci-dessous:
-* On créé le répertoire racine de notre projet
-__mkdir racine__
-* On se place à l'intérieur de ce répertoire
-cd racine
-* On créé le dossier de notre service nextcloud
-mkdir nextcloud
-* On se positionne à l'interieur de ce dossier de service Nextcloud
-cd nextcloud
-* On créé un sous-dossier pour la base de données mariadb
-mkdir mariadb
-* On créé un sous-dossier pour la configuration Nextcloud
-mkdir config
-* On créé un sous-dossier pour les données su service Nextcloud
-mkdir data
-* On créé et on ouvre le fichier docker-compose.yml
-sudo nano docker-compose.yml ```
+* On créé le répertoire racine de notre projet  
+`mkdir racine`
+* On se place à l'intérieur de ce répertoire  
+`cd racine`
+* On créé le dossier de notre service nextcloud  
+`mkdir nextcloud`
+* On se positionne à l'interieur de ce dossier de service Nextcloud  
+`cd nextcloud`
+* On créé un sous-dossier pour la base de données mariadb  
+`mkdir mariadb`
+* On créé un sous-dossier pour la configuration Nextcloud  
+`mkdir config`
+* On créé un sous-dossier pour les données su service Nextcloud  
+`mkdir data`
+* On créé et on ouvre le fichier docker-compose.yml  
+`sudo nano docker-compose.yml`
 
 
 # DOCKER-COMPOSE.YML
