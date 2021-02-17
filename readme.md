@@ -73,7 +73,7 @@ services:
       - MYSQL_PASSWORD=MOTDEPASS2
     volumes:
       - /racine/nextcloud/mariadb:/config
-    restart: unless-stopped``` 
+    restart: unless-stopped
 
 
     
@@ -86,7 +86,7 @@ docker-compose up -d
 
 # ACCES WEB
 Ouvrez votre navigateur et taper l'adresse IP de la machine sur laquelle 
-vous avez fait l'installation en https https:\\IPDELAMACHINE 
+vous avez fait l'installation en https:\\IPDELAMACHINE 
 Vous allez tomber sur l'interface de configuration de votre service 
 Nextcloud
 
