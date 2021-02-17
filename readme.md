@@ -115,7 +115,7 @@ passe
 ![Screenshot-Nextcloud](images/screenshot-nextcloud.png)
 
 Vous allez devoir saisir les informations liées à votre configuration 
-donc les informations personnalisées dans le docker-compose.yml 
+donc les informations personnalisées dans le **docker-compose.yml** 
 
 
                                                | 
@@ -128,5 +128,6 @@ donc les informations personnalisées dans le docker-compose.yml
 
 
 Cliquez sur **Terminer la configuration**  
+
 Votre service Nextcloud est en place avec des données persistantes sur votre machine et tournant avec 2 
 conteneurs Docker linuxserver/nextcloud et linuxserver/mariadb
