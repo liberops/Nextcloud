@@ -81,13 +81,15 @@ services:
     
 On enregistre ce fichier **docker-compose.yml**  
 
-On se replace dans le dossier NEXTCLOUD si ce n'était plus le cas 
+On se replace dans le dossier NEXTCLOUD si ce n'était plus le cas  
 `cd nextcloud`  
 
 On lance le fichier **docker-compose.yml** avec la commande suivante:  
 `docker-compose up -d`  
 
 **Le résultat doit être DONE !!!!!**
+
+
 
 
 ## ACCES WEB
@@ -116,6 +118,6 @@ donc les informations personnalisées dans le docker-compose.yml
     localhost                                  | mariadb
 
 
-Cliquez sur Terminer et la configuration et votre service Nextcloud sera en place 
-avec des données persistantes sur votre machine et tournant avec 2 
+Cliquez sur **Terminer la configuration**  
+Votre service Nextcloud est en place avec des données persistantes sur votre machine et tournant avec 2 
 conteneurs Docker linuxserver/nextcloud et linuxserver/mariadb
