@@ -43,17 +43,17 @@ Copier coller le contenu ci-dessous dans le fichier docker-compose.yml
 que vous venez de crée en adaptant les données "MOTDEPASSE1" et 
 "MOTDEPASSE2" 
 
-`version: "2"
-services:
-  nextcloud:
-    image: linuxserver/nextcloud
-    container_name: nextcloud
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Paris
-    volumes:
-      - /racine/nextcloud/config:/config
+`version: "2"`
+`services:`
+  `nextcloud:`
+    `image: linuxserver/nextcloud
+    `container_name: nextcloud
+    `environment:
+      `- PUID=1000
+      `- PGID=1000
+      `- TZ=Europe/Paris
+    `volumes:
+      `- /racine/nextcloud/config:/config
       - /racine/nextcloud/data:/data
     ports:
       - 443:443
