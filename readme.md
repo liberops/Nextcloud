@@ -1,7 +1,7 @@
 # Installation de Nextcloud via Docker  
 
 
-# ARBORESCENCE
+## ARBORESCENCE
 Nous allons d'abord créer l'arborescence suivante qui nous servira pour 
 l'installation.    
 
@@ -18,7 +18,7 @@ l'installation.
 
 
 
-# DOSSIERS DE TRAVAIL
+## DOSSIERS DE TRAVAIL
 On utilise donc les commandes ci-dessous:
 * On créé le répertoire racine de notre projet  
 `mkdir racine`
@@ -38,12 +38,13 @@ On utilise donc les commandes ci-dessous:
 `sudo nano docker-compose.yml`
 
 
-# DOCKER-COMPOSE.YML
+## DOCKER-COMPOSE.YML
 Récupérer le fichier docker-compose.yml dans le dépôt et effectuer les modifications pour le personnaliser.  
 Penser à changer **MOTDEPASSE1** et **MOTDEPASSE2**  
 
 
-```version: "2"
+ ````   
+version: "2"
 services:
   nextcloud:
     image: linuxserver/nextcloud
@@ -74,6 +75,7 @@ services:
     volumes:
       - /racine/nextcloud/mariadb:/config
     restart: unless-stopped
+```
 
 
     
@@ -84,15 +86,16 @@ docker-compose up -d
 **Le résultat doit être DONE !!!!!**
 
 
-# ACCES WEB
+## ACCES WEB
 Ouvrez votre navigateur et taper l'adresse IP de la machine sur laquelle 
-vous avez fait l'installation en https:\\IPDELAMACHINE 
+vous avez fait l'installation:  
+`https:\\IPDELAMACHINE`   
 Vous allez tomber sur l'interface de configuration de votre service 
 Nextcloud
 
 
 
-# FINALISATION
+## FINALISATION
 Sur cette page, vous allez créer un compte administrateur et un mot de 
 passe
 
