@@ -4,16 +4,15 @@
 ##
 ## ARBORESCENCE
 Nous allons d'abord créer l'arborescence suivante qui nous servira pour 
-l'installation. Elle ressemblera à ça: 
-RACINE
-     NEXTCLOUD 
-             MARIADB 
-             CONFIG 
-             DATA 
-             DOCKER-COMPOSE.YML
-##
-##
-##
+l'installation. 
+Elle ressemblera à ça: 
+- RACINE
+       - NEXTCLOUD 
+                - MARIADB 
+                - CONFIG 
+                - DATA 
+                - DOCKER-COMPOSE.YML
+
 # DOSSIERS DE TRAVAIL
 On utilise donc les commandes ci-dessous:
 # On créé le répertoire racine de notre projet
@@ -32,13 +31,14 @@ mkdir config
 mkdir data
 # On créé et on ouvre le fichier docker-compose.yml
 sudo nano docker-compose.yml ```
-##
-##
-##
+
+
 # DOCKER-COMPOSE.YML
 Copier coller le contenu ci-dessous dans le fichier docker-compose.yml 
 que vous venez de crée en adaptant les données "MOTDEPASSE1" et 
-"MOTDEPASSE2" ```sh version: "2" services:
+"MOTDEPASSE2" 
+
+version: "2" services:
   nextcloud: image: linuxserver/nextcloud container_name: nextcloud 
     environment:
       - PUID=1000 - PGID=1000 - TZ=Europe/Paris volumes: - 
@@ -50,7 +50,9 @@ que vous venez de crée en adaptant les données "MOTDEPASSE1" et
       TZ=Europe/London - MYSQL_DATABASE=nextcloud - MYSQL_USER=nextcloud 
       - MYSQL_PASSWORD=MOTDEPASSE2
     volumes: - /racine/nextcloud/mariadb:/config restart: unless-stopped 
-``` On enregistre ce fichier docker-compose.yml On se replace dans le 
+    
+    
+On enregistre ce fichier docker-compose.yml On se replace dans le 
 dossier NEXTCLOUD si ce n'était plus le cas ```sh cd nextcloud ``` On 
 lance le fichier docker-compose.yml avec la commande suivante: ```sh 
 docker-compose up -d ``` Le résultat doit être DONE !!!!!
