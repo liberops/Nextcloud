@@ -3,18 +3,19 @@
 # ARBORESCENCE
 Nous allons d'abord créer l'arborescence suivante qui nous servira pour 
 l'installation.   
-Elle ressemblera à ça:   
-`*RACINE`  
+Elle ressemblera à ça: 
 
-       `*NEXTCLOUD`  
+`RACINE` 
+
+       `NEXTCLOUD`  
        
-                `*MARIADB`  
+                `MARIADB`  
                  
-                `*CONFIG`  
+                `CONFIG`  
                 
-                `*DATA`  
+                `DATA`  
                 
-                `*DOCKER-COMPOSE.YML` 
+                `DOCKER-COMPOSE.YML` 
 
 # DOSSIERS DE TRAVAIL
 On utilise donc les commandes ci-dessous:
