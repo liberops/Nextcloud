@@ -112,6 +112,8 @@ Nextcloud
 Sur cette page, vous allez créer un compte administrateur et un mot de 
 passe
 
+![Texte alternatif](images/screenshot-nextcloud.png)
+
 Vous allez devoir saisir les informations liées à votre configuration 
 donc les informations personnalisées dans le docker-compose.yml 
 
