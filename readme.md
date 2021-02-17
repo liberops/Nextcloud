@@ -78,9 +78,10 @@ services:
 
     
 On enregistre ce fichier docker-compose.yml On se replace dans le 
-dossier NEXTCLOUD si ce n'était plus le cas ```sh cd nextcloud ``` On 
-lance le fichier docker-compose.yml avec la commande suivante: ```sh 
-docker-compose up -d ``` Le résultat doit être DONE !!!!!
+dossier NEXTCLOUD si ce n'était plus le cas `cd nextcloud` On 
+lance le fichier docker-compose.yml avec la commande suivante: ` 
+docker-compose up -d`  
+**Le résultat doit être DONE !!!!!**
 
 
 # ACCES WEB
