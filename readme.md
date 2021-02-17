@@ -1,6 +1,13 @@
 # Installation de Nextcloud via Docker  
 
 
+
+## PREREQUIS
+
+[Installer Docker sur votre machine (Ex: Debian10)]
+https://docs.docker.com/engine/install/debian/
+
+
 ## ARBORESCENCE
 Nous allons d'abord créer l'arborescence suivante qui nous servira pour 
 l'installation.    
