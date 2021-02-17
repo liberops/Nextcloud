@@ -78,15 +78,15 @@ services:
 
     
 On enregistre ce fichier docker-compose.yml On se replace dans le 
-dossier NEXTCLOUD si ce n'était plus le cas `cd nextcloud` On 
-lance le fichier docker-compose.yml avec la commande suivante: ` 
-docker-compose up -d`  
+dossier NEXTCLOUD si ce n'était plus le cas cd nextcloud On 
+lance le fichier docker-compose.yml avec la commande suivante:  
+docker-compose up -d  
 **Le résultat doit être DONE !!!!!**
 
 
 # ACCES WEB
 Ouvrez votre navigateur et taper l'adresse IP de la machine sur laquelle 
-vous avez fait l'installation en https `https:\\IPDELAMACHINE` 
+vous avez fait l'installation en https https:\\IPDELAMACHINE 
 Vous allez tomber sur l'interface de configuration de votre service 
 Nextcloud
 
@@ -100,7 +100,7 @@ Vous allez devoir saisir les informations liées à votre configuration
 donc les informations personnalisées dans le docker-compose.yml 
 
 
-    yui                                        | iui
+                                               | 
     Le répertoire de données est:              | /data
     La base de données est:                    | MySQL/MariaDB
     Lutilisateur de la base de données est:    | nextcloud
