@@ -80,10 +80,13 @@ services:
 
     
 On enregistre ce fichier **docker-compose.yml**  
+
 On se replace dans le dossier NEXTCLOUD si ce n'était plus le cas 
 'cd nextcloud'  
+
 On lance le fichier **docker-compose.yml** avec la commande suivante:  
-`docker-compose up -d` 
+`docker-compose up -d`  
+
 **Le résultat doit être DONE !!!!!**
 
 
