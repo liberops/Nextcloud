@@ -8,7 +8,7 @@
 
 Installer Docker sur votre machine: 
 https://docs.docker.com/engine/install/debian/
-
+Installer Docker Compose `sudo apt install docker-compose`
   
   
 ## ARBORESCENCE
@@ -97,7 +97,7 @@ On se replace dans le dossier NEXTCLOUD si ce n'était plus le cas
 `cd nextcloud`  
 
 On lance le fichier **docker-compose.yml** avec la commande suivante:  
-`docker-compose up -d`  
+`sudo docker-compose up -d`  
 
 **Le résultat doit être DONE !!!!!**
 
