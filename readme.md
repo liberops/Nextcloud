@@ -4,7 +4,7 @@
 Nous allons d'abord créer l'arborescence suivante qui nous servira pour 
 l'installation. 
 Elle ressemblera à ça: 
-* RACINE
+`* RACINE`
       ' * NEXTCLOUD '
               '  * MARIADB '
               ' * CONFIG '
