@@ -43,7 +43,7 @@ Récupérer le fichier docker-compose.yml dans le dépôt et effectuer les modif
 Penser à changer **MOTDEPASSE1** et **MOTDEPASSE2**  
 
 
- ````   
+ ```
 version: "2"
 services:
   nextcloud:
