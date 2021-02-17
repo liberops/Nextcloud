@@ -86,7 +86,7 @@ docker-compose up -d`
 
 # ACCES WEB
 Ouvrez votre navigateur et taper l'adresse IP de la machine sur laquelle 
-vous avez fait l'installation en https ```sh https:\\IPDELAMACHINE ``` 
+vous avez fait l'installation en https `https:\\IPDELAMACHINE` 
 Vous allez tomber sur l'interface de configuration de votre service 
 Nextcloud
 
