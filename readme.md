@@ -56,27 +56,36 @@ On enregistre ce fichier docker-compose.yml On se replace dans le
 dossier NEXTCLOUD si ce n'était plus le cas ```sh cd nextcloud ``` On 
 lance le fichier docker-compose.yml avec la commande suivante: ```sh 
 docker-compose up -d ``` Le résultat doit être DONE !!!!!
-##
-##
-##
+
+
 # ACCES WEB
 Ouvrez votre navigateur et taper l'adresse IP de la machine sur laquelle 
 vous avez fait l'installation en https ```sh https:\\IPDELAMACHINE ``` 
 Vous allez tomber sur l'interface de configuration de votre service 
 Nextcloud
-##
-##
-##
+
+
 # FINALISATION
 Sur cette page, vous allez créer un compte administrateur et un mot de 
 passe
-#
+
 Vous allez devoir saisir les informations liées à votre configuration 
-donc les informations personnalisées dans le docker-compose.yml ```sh Le 
-répertoire de données est: '/data' La base de données est: 
-'MySQL/MariaDB' Lutilisateur de la base de données est: 'nextcloud' Le 
-mot de passe de la base de données: 'MOTDEPASSE1' Le nom de la base de 
-données: 'nextcloud' Remplacer localhost par 'mariadb' ``` Cliquez sur 
-Terminer et la configuration et votre service Nextcloud sera en place 
+donc les informations personnalisées dans le docker-compose.yml 
+Le répertoire de données est: '/data' 
+La base de données est: 'MySQL/MariaDB' 
+Lutilisateur de la base de données est: 'nextcloud' 
+Le mot de passe de la base de données: 'MOTDEPASSE1' 
+Le nom de la base de données: 'nextcloud' 
+Remplacer localhost par 'mariadb' 
+
+    yui                                 | iui
+Le répertoire de données est:           | /data
+La base de données est:                 | MySQL/MariaDB
+Lutilisateur de la base de données est: | nextcloud
+Le mot de passe de la base de données:  | MOTDEPASSE1
+Le nom de la base de données:           | nextcloud
+localhost                               | mariadb
+
+Cliquez sur Terminer et la configuration et votre service Nextcloud sera en place 
 avec des données persistantes sur votre machine et tournant avec 2 
 conteneurs Docker linuxserver/nextcloud et linuxserver/mariadb
