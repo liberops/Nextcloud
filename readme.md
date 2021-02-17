@@ -39,7 +39,7 @@ On utilise donc les commandes ci-dessous:
 
 
 ## DOCKER-COMPOSE.YML
-Récupérer le fichier docker-compose.yml dans le dépôt ou copier/coller le code ci-dessous sans votre fichier docker-compose.yml et effectuer les modifications pour le personnaliser.  
+Récupérer le fichier docker-compose.yml dans le dépôt ou copier/coller le code ci-dessous sans votre fichier **docker-compose.yml** et effectuer les modifications pour le personnaliser.  
 Penser à changer **MOTDEPASSE1** et **MOTDEPASSE2**  
 
 
