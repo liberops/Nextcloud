@@ -40,7 +40,39 @@ On utilise donc les commandes ci-dessous:
 
 # DOCKER-COMPOSE.YML
 Récupérer le fichier docker-compose.yml dans le dépôt et effectuer les modifications pour le personnaliser.  
-Penser à changer <br>"MOTDEPASSE1"<\br> et "MOTDEPASSE2" 
+` Penser à changer <br>"MOTDEPASSE1"<\br> et "MOTDEPASSE2" `   
+version: "2"
+services:
+  nextcloud:
+    image: linuxserver/nextcloud
+    container_name: nextcloud
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Paris
+    volumes:
+      - /racine/nextcloud/config:/config
+      - /racine/nextcloud/data:/data
+    ports:
+      - 443:443
+    depends_on:
+      - mariadb
+    restart: unless-stopped
+  mariadb:
+    image: linuxserver/mariadb
+    container_name: mariadb
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - MYSQL_ROOT_PASSWORD=MOTDEPASS1
+      - TZ=Europe/London
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=MOTDEPASS2
+    volumes:
+      - /racine/nextcloud/mariadb:/config
+    restart: unless-stopped
+
 
     
 On enregistre ce fichier docker-compose.yml On se replace dans le 
