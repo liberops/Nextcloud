@@ -85,7 +85,7 @@ services:
       - MYSQL_USER=nextcloud
       - MYSQL_PASSWORD=MOTDEPASS2
     volumes:
-      - /racine/nextcloud/mariadb:/config
+      - /racine/nextcloud/mariadb:/mariadb
     restart: unless-stopped
 ```
 
