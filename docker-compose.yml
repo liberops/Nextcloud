@@ -21,11 +21,11 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - MYSQL_ROOT_PASSWORD=MOTDEPASSE1
+      - MYSQL_ROOT_PASSWORD=MOTDEPASS1
       - TZ=Europe/London
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
-      - MYSQL_PASSWORD=MOTDEPASSE2
+      - MYSQL_PASSWORD=MOTDEPASS2
     volumes:
       - /racine/nextcloud/mariadb:/config
     restart: unless-stopped
