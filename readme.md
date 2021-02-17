@@ -4,12 +4,12 @@
 Nous allons d'abord créer l'arborescence suivante qui nous servira pour 
 l'installation.   
 Elle ressemblera à ça: 
-`RACINE`
-      `NEXTCLOUD`
-              `MARIADB`
-              `CONFIG'
-              `DATA`
-              `DOCKER-COMPOSE.YML`
+`*RACINE`
+      `*NEXTCLOUD`
+              `*MARIADB`
+              `*CONFIG`
+              `*DATA`
+              `*DOCKER-COMPOSE.YML`
 
 # DOSSIERS DE TRAVAIL
 On utilise donc les commandes ci-dessous:
