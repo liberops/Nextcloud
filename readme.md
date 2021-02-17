@@ -1,9 +1,9 @@
-# Installation de Nextcloud via Docker
+# Installation de Nextcloud via Docker  
+
 
 # ARBORESCENCE
 Nous allons d'abord créer l'arborescence suivante qui nous servira pour 
-l'installation.   
-Elle ressemblera à ça: 
+l'installation.    
 
 * RACINE 
 
@@ -89,26 +89,23 @@ Vous allez tomber sur l'interface de configuration de votre service
 Nextcloud
 
 
+
 # FINALISATION
 Sur cette page, vous allez créer un compte administrateur et un mot de 
 passe
 
 Vous allez devoir saisir les informations liées à votre configuration 
 donc les informations personnalisées dans le docker-compose.yml 
-Le répertoire de données est: '/data' 
-La base de données est: 'MySQL/MariaDB' 
-Lutilisateur de la base de données est: 'nextcloud' 
-Le mot de passe de la base de données: 'MOTDEPASSE1' 
-Le nom de la base de données: 'nextcloud' 
-Remplacer localhost par 'mariadb' 
 
-    yui                                 | iui
-Le répertoire de données est:           | /data
-La base de données est:                 | MySQL/MariaDB
-Lutilisateur de la base de données est: | nextcloud
-Le mot de passe de la base de données:  | MOTDEPASSE1
-Le nom de la base de données:           | nextcloud
-localhost                               | mariadb
+
+    yui                                        | iui
+    Le répertoire de données est:              | /data
+    La base de données est:                    | MySQL/MariaDB
+    Lutilisateur de la base de données est:    | nextcloud
+    Le mot de passe de la base de données est: | MOTDEPASSE2
+    Le nom de la base de données est:          | nextcloud
+    localhost                                  | mariadb
+
 
 Cliquez sur Terminer et la configuration et votre service Nextcloud sera en place 
 avec des données persistantes sur votre machine et tournant avec 2 
